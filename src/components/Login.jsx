@@ -12,6 +12,7 @@ const Login = () => {
         >
           <MdArrowBackIos fontSize={"1.3rem"} />
         </button>
+        
         <h2 className="font-bold text-2xl mb-2">
           Signin to your <br />
           PopX account
@@ -20,7 +21,7 @@ const Login = () => {
           <p>Lorem ipsum dolor sit amet.</p>
           <p>consectetur adipiscig elit.</p>
         </div>
-        <form className="flex flex-col gap-10">
+        <form onSubmit={(e)=> e.preventDefault()} className="flex flex-col gap-10">
           <div className="relative">
             <label
               htmlFor="email"
