@@ -1,0 +1,13 @@
+@import "tailwindcss";
+*{
+  font-family: sans-serif;
+}
+input{
+  width: 100%;
+}
+button{
+  cursor: pointer;
+}
+input[type='radio']{
+  cursor: pointer;
+}
